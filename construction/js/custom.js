@@ -179,11 +179,11 @@
   // map js code
   var map = $('.map');
   if (map.length) {
-    $('.map')
-      .gmap3({
-        center: [40.740, -74.18],
-        zoom: 12
-      })
+    $('.map').html('<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7940.796043870414!2d-0.01219312349895863!3d5.655426160236236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf80afe0036c93%3A0x381441a6f3b5d45c!2sCommunity%20Four%2C%20Tema!5e0!3m2!1sen!2sgh!4v1577103037122!5m2!1sen!2sgh" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>');
+      // .gmap3({
+      //   center: [40.740, -74.18],
+      //   zoom: 12
+      // })
   }
   // menu fixed js code
   $(window).scroll(function () {
